@@ -1,0 +1,20 @@
+ublic class DrivingCheck {
+    public static void main(String[] args) {
+
+        int age = 17;
+        boolean hasLicence = true;
+
+        if (age >= 16) {
+            if (hasLicence) {
+                System.out.println("Can drive");
+            } else {
+                System.out.println("Get a licence first");
+            }
+        } else {
+            System.out.println("Too young");
+        }
+
+    }
+}
+//PROMPT 1: what print? = "Can drive"
+// PROMPT 2: "Too young"
